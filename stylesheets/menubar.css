@@ -1,0 +1,85 @@
+.menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 77px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 91px;
+  /* margin-left: 113px; */
+  z-index: 1;
+  background-color: #121212;
+  opacity: .87;
+}
+
+.menubar #Logo {
+  border: 0;
+  width: 146px;
+  height: 28px;
+  /* margin-left: 91px; */
+  background-image: url(../images/logo.png);
+  background-size: cover;
+}
+
+/* .menubar .login {
+  margin-left: 184px;
+} */
+
+.menubar .logIn,
+.menubar .btn {
+  font-size: 14px;
+  font-family: var(--SourseSans);
+  font-weight: 300;
+  letter-spacing: 1.62px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.menubar .searchInput {
+  position: relative;
+  display: flex;
+  width: 436px;
+  /* margin-left: 272px; */
+}
+
+.menubar .searchInput input {
+  background: 0 0;
+  border: 0;
+  border-bottom: solid 1px white;
+  width: 100%;
+}
+
+.menubar .searchInput input:focus {
+  outline: 0;
+}
+
+.menubar .searchInput .searchIcon svg {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+.menubar .searchInput .placeholder {
+  position: absolute;
+  display: block;
+  /* left: 1ch; */
+}
+
+.menubar .textLong {
+  color: white;
+  font-family: var(--SourseSans);
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: .05em;
+  margin-left: 1ch;
+}

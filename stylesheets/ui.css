@@ -1,0 +1,31 @@
+.btn {
+  display: inline-block;
+  align-items: center;
+  font-family: var(--SourseSans);
+  border-style: solid;
+
+}
+
+.big {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  /* width: 178px;
+  height: 45px; */
+  padding: 14px 28px;
+  color: white;
+}
+
+.red {
+  background-color: #FF5E42;
+}
+
+.middle {
+  font-weight: 300;
+  padding: 10px 28px;
+}
+
+.black {
+  border-width: .5px;
+  border-color: white;
+}

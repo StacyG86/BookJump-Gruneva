@@ -1,6 +1,267 @@
 .landing.bg {
-  background-image: url(../images/maket.png);
-  background-size: 1440px 3684px;
-  background-position: center 0px;
+  background-image: url(../images/maket1.jpg);
+  background-size: 1440px 3203px;
+  /* background-position: center 0px; */
   background-repeat: no-repeat;
+}
+
+.landingWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+.landingWrapper .mainSection_one h2 {
+  font-family: var(--Roboto);
+  font-size: 51px;
+  color: white;
+  cursor: default;
+}
+
+.landingWrapper .mainSection_one h3 {
+  font-family: var(--Roboto);
+  font-size: 46px;
+  color: white;
+  margin-top: 10px;
+  cursor: default;
+}
+
+.landingWrapper .mainSection_one p {
+  font-family: var(--SourseSans);
+  font-size: 19px;
+  line-height: 23px;
+  color: white;
+  margin-top: 6px;
+  font-weight: 300;
+  cursor: default;
+}
+
+.landingWrapper .mainSection_one .textWrapper nav {
+  margin-top: 22px;
+}
+
+.landingWrapper .mainSection_two {
+  /* position: relative; */
+  height: 643px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.landingWrapper .mainSection_two .headName {
+  display: flex;
+}
+
+.landingWrapper .mainSection_two .headName h2 {
+  margin-top: 70px;
+  margin-left: 420px;
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  font-size: 46px;
+  color: #0B2636;
+}
+
+.landingWrapper .mainSection_two .headName p {
+  font-family: var(--SourseSans);
+  font-size: 34px;
+  text-transform: capitalize;
+  margin-top: 70px;
+  margin-left: 198px;
+  color: var(--gray);
+}
+
+.landingWrapper .mainSection_two .headName .icon {
+  margin-top: 78px;
+  margin-left: 9px;
+  font-size: 26px;
+  color: var(--gray);
+}
+
+.landingWrapper .mainSection_two .booksGallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 141px;
+  margin-right: 126px;
+}
+
+.landingWrapper .mainSection_two .booksGallery h6 {
+  margin-top: 21px;
+  font-size: 18px;
+  font-family: var(--SourseSans);
+}
+
+.landingWrapper .mainSection_two .booksGallery p {
+  margin-top: 8px;
+  font-size: 16px;
+  font-family: var(--SourseSans);
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.landingWrapper .mainSection_two figure {
+  width: 199px;
+  height: 314px;
+  /* margin-right: 41px; */
+}
+
+.landingWrapper .mainSection_two .arrowScroll {
+  margin-top: 120px;
+  display: flex;
+  position: absolute;
+}
+
+.landingWrapper .mainSection_two .arrowScroll figure {
+  width: 74px;
+  height: 74px;
+}
+
+.landingWrapper .mainSection_two .arrowScroll .arrowLeft {
+  margin-left: 1085px;
+}
+
+.landingWrapper .mainSection_two .arrowScroll .arrowRight {
+  margin-left: -40px;
+}
+
+.landingWrapper .mainSection_two hr {
+  width: 1263px;
+  height: 1px;
+  color: #4A4A4A;
+  margin-top: 97px;
+}
+
+.landingWrapper .mainSection_three {
+  display: flex;
+  height: 540px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.landingWrapper .mainSection_three .textWrapper,
+.landingWrapper .mainSection_four .textWrapper {
+  width: 100%;
+}
+
+.landingWrapper .mainSection_three .headName h2:hover {
+  cursor: default;
+}
+
+.landingWrapper .mainSection_three .headName h2 {
+  margin-top: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  font-size: 46px;
+  color: #0B2636;
+}
+
+.landingWrapper .mainSection_three h6 {
+  font-family: var(--Roboto);
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0B2636;
+}
+
+.landingWrapper .mainSection_three p {
+  font-family: var(--SourseSans);
+  margin-top: 13px;
+  font-size: 18px;
+  color: #0B2636;
+}
+
+.landingWrapper .mainSection_three figure {
+  width: 264px;
+  height: 264px;
+  border-radius: 2px;
+}
+
+.landingWrapper .mainSection_three .Rating figure {
+  position: absolute;
+  margin-left: 160px;
+  width: 104px;
+  height: 19px;
+}
+
+.landingWrapper .mainSection_three .UserGallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-left: 141px;
+  margin-right: 126px;
+}
+
+.landingWrapper .mainSection_three hr {
+  width: 1263px;
+  height: 1px;
+  color: #4A4A4A;
+  margin-top: 76px;
+}
+
+.landingWrapper .mainSection_three .iconArrow {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -15px;
+}
+
+.landingWrapper .mainSection_four {
+  display: flex;
+  height: 756px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.landingWrapper .mainSection_four .headName h2 {
+  margin-top: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  font-size: 46px;
+  color: #0B2636;
+}
+
+.landingWrapper .mainSection_four .review {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+
+.landingWrapper .mainSection_four .userReview figure {
+  width: 264px;
+  height: 264px;
+  border-radius: 2px;
+}
+
+.landingWrapper .mainSection_four .bookReview figure {
+  width: 264px;
+  height: 396px;
+}
+
+.landingWrapper .mainSection_four .userReview h4 {
+  font-family: var(--Roboto);
+  font-size: 27px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.landingWrapper .mainSection_four .userReview h6 {
+  position: relative;
+  margin-left: 60px;
+  font-family: var(--Roboto);
+  font-size: 15px;
+  letter-spacing: .65px;
+}
+
+
+.landingWrapper .mainSection_four .userReview h6::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  background-color: #242424;
+  width: 40px;
+  margin-left: -60px;
+  top: 50%;
 }
