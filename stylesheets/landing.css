@@ -12,7 +12,6 @@
   margin: 0 auto;
 }
 
-
 .landingWrapper .mainSection_one h2 {
   font-family: var(--Roboto);
   font-size: 51px;
@@ -223,10 +222,11 @@
 }
 
 .landingWrapper .mainSection_four .review {
-  /* position: relative; */
   display: flex;
   justify-content: space-between;
   margin-top: 27px;
+  padding-left: 140px;
+  padding-right: 160px;
 }
 
 .landingWrapper .mainSection_four .userReview figure {
@@ -238,6 +238,7 @@
 .landingWrapper .mainSection_four .bookReview figure {
   width: 264px;
   height: 396px;
+  margin-right: 18px;
 }
 
 .landingWrapper .mainSection_four .userReview h4 {
@@ -245,6 +246,8 @@
   font-size: 27px;
   font-weight: 500;
   text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 24px;
 }
 
 .landingWrapper .mainSection_four .userReview h6 {
@@ -264,4 +267,146 @@
   width: 40px;
   margin-left: -60px;
   top: 50%;
+}
+
+.landingWrapper .mainSection_four .userReview blockquote {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: var(--SourseSans);
+  line-height: 25px;
+  color: #5D5D5D;
+}
+
+.landingWrapper .mainSection_four .textBookReview h6 {
+  font-size: 16px;
+  font-family: var(--Roboto);
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #F42535;
+}
+
+.landingWrapper .mainSection_four .textBookReview h4 {
+  font-family: var(--SourseSans);
+  font-size: 39px;
+  line-height: 43px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.landingWrapper .mainSection_four .textBookReview p {
+  font-size: 16px;
+  font-family: var(--SourseSans);
+  line-height: 25px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.landingWrapper .mainSection_four .textBookReview a {
+  font-size: 16px;
+  font-family: var(--SourseSans);
+  color: #F42535;
+}
+
+.landingWrapper .footerUp {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 217px;
+  background-color: #EEEEEE;
+  padding-left: 141px;
+  padding-top: 48px;
+  padding-right: 442px;
+}
+
+.landingWrapper .footerUp p {
+  font-size: 20px;
+  font-family: var(--SourseSans);
+  margin-bottom: 31px;
+}
+
+.landingWrapper .footerUp .subscription {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.landingWrapper .footerUp .subscription .textSub {
+  width: 356px;
+  height: 62px;
+  border: none;
+  text-align: left;
+  padding-left: 18px;
+  font-size: 15px;
+  font-family: var(--SourseSans);
+  font-weight: 300;
+  color: #9B9B9B;
+  text-transform: capitalize;
+
+}
+
+.landingWrapper .footerUp .subscription input:focus {
+  outline: inherit;
+}
+
+.landingWrapper .footerUp .subscription .buttonSub {
+  width: 242px;
+  height: 52px;
+  font-family: var(--SourseSans);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .89px;
+  font-weight: 300;
+  background-color: #FF5E42;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.landingWrapper .footerDown {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #121212;
+}
+
+.landingWrapper .footerDown .center {
+  margin: 0  auto;
+  display: flex;
+}
+
+.landingWrapper .footerDown .logoBig {
+  background-image: url(../images/logoBig.png);
+  width: 232px;
+  height: 38px;
+}
+
+.landingWrapper .footerDown .vl {
+  position: absolute;
+  height: 100%;
+  left: 25%;
+  top: 0;
+  border-left: 1px solid #979797;
+}
+
+.landingWrapper .footerDown .contactList {
+  display: grid;
+  font-family: var(--SourseSans);
+  font-size: 14px;
+  color: white;
+}
+
+.landingWrapper .footerDown .appStore {
+  display: grid;
+}
+
+.landingWrapper .footerDown .appStore .apple {
+  background-image: url(../images/appstore.png);
+  width: 138px;
+  height: 41px;
+}
+
+.landingWrapper .footerDown .appStore .google {
+  background-image: url(../images/google.png);
+  width: 136px;
+  height: 41px;
 }

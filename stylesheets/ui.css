@@ -21,11 +21,16 @@
 }
 
 .middle {
-  font-weight: 300;
   padding: 10px 28px;
 }
 
 .black {
   border-width: .5px;
   border-color: white;
+}
+
+.black:hover {
+  background-color: #FF5E42;
+  border-color: #FF5E42;
+  opacity: 1;
 }
